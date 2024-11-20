@@ -1,25 +1,25 @@
-Market System Setup Instructions
-Prerequisites
+## Market System Setup Instructions
+# Prerequisites
 
 Python 3.8 or higher
 Windows 10/11
 
-Installation
+# Installation
 
 Clone or download the project files
 Navigate to the project directory
 
-Running the Application
+# Running the Application
 
 Start the server:
-
-bashCopypython src/SellerServer.py
+Run SellerServer.py
 
 Start one or more buyers in separate terminals:
 
-bashCopypython src/BuyerClient.py
-Available Commands
+Run BuyerClient.py
 
-LIST: View current inventory
-BUY <item> <amount>: Purchase items
-LEAVE: Exit the market
+# Available Commands
+
+1. LIST: View current inventory
+2. BUY <item> <amount>: Purchase items
+3. LEAVE: Exit the market
